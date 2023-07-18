@@ -3,7 +3,7 @@
 
 @import "vendor/normalize";
 // Swiper 7.4.1
-// @import "vendor/swiper";
+@import "vendor/swiper";
 
 // Global
 // ---------------------------------
@@ -12,17 +12,36 @@
 @import "mixins";
 @import "global/fonts";
 @import "global/reboot";
-@import "global/utils";
-@import "global/container";
 
 // Blocks
 // ---------------------------------
 
 @import "blocks/btn";
-@import "blocks/modal";
 @import "blocks/custom-input";
 @import "blocks/custom-toggle";
 @import "blocks/custom-select";
+@import "blocks/main-header";
+@import "blocks/promo";
+@import "blocks/gym";
+@import "blocks/main-footer";
+@import "blocks/abonnement";
+@import "blocks/data-tabs";
+@import "blocks/tabs";
+@import "blocks/super-game";
+@import "blocks/date";
+@import "blocks/coaches";
+@import "blocks/advantages";
+@import "blocks/advantage";
+@import "blocks/stocks";
+@import "blocks/accordion";
+@import "blocks/data-accordion";
+@import "blocks/questions";
+@import "blocks/questions-tabs";
+@import "blocks/feedback";
+
+// Swiper
+@import "swiper/swiper";
+@import "swiper/swiper-slide";
 
 // ---------------------------------
 

@@ -1,0 +1,152 @@
+.promo__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 201px 51px 0;
+  margin-top: -21px;
+
+  @include vp-1199 {
+    margin-top: 0;
+    padding-bottom: 82px;
+    padding-right: 0;
+  }
+
+  @include vp-767 {
+    display: block;
+    padding-bottom: 77px;
+  }
+}
+
+.promo__information-container {
+  margin: 110px 64px 0 21px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: min-content min-content min-content;
+  align-items: end;
+
+  @include vp-1199 {
+    margin: 43px 29px 0 0;
+  }
+
+  @include vp-767 {
+    margin: 0;
+  }
+}
+
+.promo__location {
+  grid-column: 2;
+  color: $color-default-white;
+  font-family: $ff-alumni;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 57.6px;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 48px;
+  margin-bottom: 15px;
+
+  @include vp-1199 {
+    font-size: 31px;
+    letter-spacing: 1.02px;
+    padding: 0;
+    margin: 0;
+  }
+
+  @include vp-767 {
+    font-size: 28px;
+    letter-spacing: 0.84px;
+  }
+}
+
+.promo__title {
+  grid-column: 2;
+  color: $color-default-white;
+  font-family: $ff-alumni;
+  text-align: right;
+  font-size: 92px;
+  font-weight: 600;
+  line-height: 110.4px;
+  letter-spacing: 4.6px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 49px;
+
+  @include vp-1199 {
+    font-size: 72px;
+    letter-spacing: 3.6px;
+    line-height: 86.4px;
+    margin-bottom: 33px;
+    text-transform: none;
+  }
+
+
+  @include vp-767 {
+    font-size: 72px;
+    letter-spacing: 3.6px;
+    line-height: 86.4px;
+    margin-bottom: 24px;
+    text-transform: none;
+  }
+}
+
+.promo__button {
+  grid-column: 2;
+  color: $color-default-white;
+  font-family: $ff-roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  border: 4px solid $color-default-white;
+  background-color: transparent;
+  width: 234px;
+  height: 61px;
+  margin-left: auto;
+
+  @include vp-1199 {
+    width: 187px;
+    height: 61px;
+  }
+
+  @include vp-767 {
+    width: 100%;
+    height: 63px;
+    grid-column: 1 / 3;
+  }
+
+}
+
+.promo__description {
+  grid-column: 1;
+  grid-row: 2;
+  align-self: end;
+  display: block;
+  color: $color-default-white;
+  font-family: $ff-roboto;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  padding-right: 15px;
+  padding-bottom: 84px;
+
+  @include vp-1199 {
+    padding-right: 25px;
+    padding-bottom: 57px;
+  }
+
+  @include vp-767 {
+    padding-right: 0;
+    padding-bottom: 55px;
+    margin-right: -10px;
+  }
+}
+
+.promo__image {
+  display: block;
+
+  @include vp-767 {
+    display: none;
+  }
+}

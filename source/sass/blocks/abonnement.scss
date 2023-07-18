@@ -1,0 +1,44 @@
+.abonnement__container {
+  background-color: $color-light-gray;
+  padding: 123px 103px 77px 103px;
+  position: relative;
+  background-image: url("../../img/gym/pancakes-desktop.png");
+  background-repeat: no-repeat;
+  background-position: 100% 142%;
+
+  @include vp-1199 {
+    padding: 102px 163px 61px 163px;
+    background-image: url("../../img/gym/pancakes-tablet.png");
+    background-position: 100% 109%;
+  }
+
+  @include vp-767 {
+    padding: 65px 15px 30px 15px;
+    background-image: none;
+  }
+}
+
+.abonnement__title {
+  font-family: $ff-alumni;
+  font-size: 54px;
+  font-weight: 600;
+  letter-spacing: 1.62px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 18px;
+
+  @include vp-1199 {
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 1.26px;
+    padding-right: 14px;
+    margin-bottom: 21px;
+  }
+
+  @include vp-767 {
+    font-size: 32px;
+    letter-spacing: 0.96px;
+    padding-right: 10px;
+  }
+}

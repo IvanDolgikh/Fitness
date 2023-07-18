@@ -1,0 +1,112 @@
+.main-footer__container {
+  background-color: $color-dark-gray;
+  padding: 41px 103px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include vp-1199 {
+    padding: 45px;
+  }
+
+  @include vp-767 {
+    padding: 50px 15px;
+    flex-direction: column;
+  }
+}
+
+.main-footer__navigation ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  @include vp-767 {
+    flex-direction: column;
+  }
+}
+
+.main-footer__navigation li:not(:last-child) {
+  margin-right: 40px;
+
+  @include vp-1199 {
+    margin-right: 30px;
+  }
+
+  @include vp-767 {
+   margin-bottom: 30px;
+  }
+}
+
+.main-footer__navigation li {
+  align-self: flex-start;
+}
+
+.main-footer__social {
+  @include vp-767 {
+    align-self: flex-start;
+  }
+}
+
+.main-footer__social ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-footer__social li:not(:last-child) {
+  margin-right: 11px;
+}
+
+.main-footer__logo {
+  @include vp-767 {
+    align-self: flex-start;
+  }
+}
+
+.main-footer__logo-link {
+  display: block;
+  color: $color-default-white;
+  font-family: $ff-alumni;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 0.52px;
+  cursor: pointer;
+
+  @include vp-1199 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+  }
+
+  @include vp-767 {
+    margin-bottom: 28px;
+  }
+}
+
+.main-footer__navigation {
+  @include vp-767 {
+    align-self: flex-start;
+    margin-bottom: 40px;
+  }
+}
+
+.main-footer__navigation-link {
+  display: block;
+  list-style-type: none;
+  color: $color-default-white;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+
+  @include vp-767 {
+    display: block;
+    text-align: left;
+  }
+}

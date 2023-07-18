@@ -1,0 +1,94 @@
+.date__day-container {
+  display: flex;
+  align-items: center
+}
+
+.date__day {
+  margin-bottom: 23px;
+
+  @include vp-1199 {
+    margin-bottom: 9px;
+  }
+}
+
+.date__day h3 {
+  color: $color-default-white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  display: block;
+  padding-bottom: 7px;
+  margin: 0;
+  margin-bottom: 3px;
+  border-bottom: 1px solid $color-default-white;
+
+  @include vp-1199 {
+    font-size: 12px;
+    line-height: 12px;
+    padding-bottom: 3px;
+    margin-right: 13px;
+  }
+}
+
+.date__day-container span {
+  color: $color-default-white;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  display: block;
+  margin: 0;
+  margin-right: 7px;
+
+  @include vp-1199 {
+    font-size: 24px;
+    line-height: 24px;
+    margin-right: 4px;
+  }
+}
+
+.date__day-container p {
+  color: $color-default-white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  margin: 0;
+
+  @include vp-1199 {
+    font-size: 10px;
+    line-height: 10px;
+    width: min-content;
+  }
+}
+
+.date__time h3 {
+  color: $color-default-white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0;
+  margin-bottom: 3px;
+  display: block;
+  padding-bottom: 10px;
+  border-bottom: 1px solid $color-default-white;
+
+  @include vp-1199 {
+    font-size: 12px;
+    line-height: 12px;
+    padding-bottom: 4px;
+    margin-bottom: 2px;
+  }
+}
+
+.date__time p {
+  color: $color-default-white;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  margin: 0;
+
+  @include vp-1199 {
+    font-size: 24px;
+    line-height: 24px;
+    width: min-content;
+  }
+}
