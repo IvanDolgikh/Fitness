@@ -1,5 +1,4 @@
 .swiper {
-
   @include vp-1199 {
     max-width: 566px;
   }
@@ -20,10 +19,24 @@
   z-index: 10;
   cursor: pointer;
   padding: 0;
-  margin-left: 47px;
+  margin-left: 28px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+
+  &:hover,
+  &:focus-visible {
+    border: 1px solid $color-dark-blue;
+  }
+
+  &:active {
+    background-color: $color-dark-blue;
+  }
 
   @include vp-767 {
     margin-left: 15px;
+    width: 10px;
+    height: 19px;
   }
 }
 
@@ -37,19 +50,44 @@
   z-index: 10;
   cursor: pointer;
   padding: 0;
-  margin-right: 47px;
+  margin-right: 28px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+
+  &:hover,
+  &:focus-visible {
+    border: 1px solid $color-dark-blue;
+  }
+
+  &:active {
+    background-color: $color-dark-blue;
+  }
 
   @include vp-767 {
     margin-right: 15px;
+    width: 12px;
+    height: 22px;
   }
 }
 
-.feedback .swiper__next-button {
-  right: -10%;
-  margin: 0;
+.swiper__next-button:active .swiper__button-icon {
+  stroke: $color-default-white;
 }
 
-.feedback .swiper__back-button {
-  left: -10%;
-  margin: 0;
+.swiper__back-button:active .swiper__button-icon {
+  stroke: $color-default-white;
+}
+
+.swiper__button-icon {
+  stroke: $color-dark-blue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  @include vp-767 {
+    width: 12px;
+    height: 22px;
+  }
 }

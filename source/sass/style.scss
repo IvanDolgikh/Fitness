@@ -12,21 +12,19 @@
 @import "mixins";
 @import "global/fonts";
 @import "global/reboot";
+@import "global/utils";
 
 // Blocks
 // ---------------------------------
 
-@import "blocks/btn";
 @import "blocks/custom-input";
-@import "blocks/custom-toggle";
-@import "blocks/custom-select";
 @import "blocks/main-header";
 @import "blocks/promo";
 @import "blocks/gym";
 @import "blocks/main-footer";
 @import "blocks/abonnement";
 @import "blocks/data-tabs";
-@import "blocks/tabs";
+@import "blocks/abonnement-tabs";
 @import "blocks/super-game";
 @import "blocks/date";
 @import "blocks/coaches";
@@ -38,6 +36,9 @@
 @import "blocks/questions";
 @import "blocks/questions-tabs";
 @import "blocks/feedback";
+@import "blocks/additional-info";
+@import "blocks/recording";
+@import "blocks/сontacts";
 
 // Swiper
 @import "swiper/swiper";

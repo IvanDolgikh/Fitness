@@ -35,11 +35,13 @@
   grid-template-rows: 1fr 1fr;
   row-gap: 158px;
   column-gap: 52px;
+  margin: 0 auto;
+  max-width: $max-width;
 
   @include vp-1199 {
     padding: 0 45px 93px 45px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows:  repeat(3, min-content);
+    grid-template-rows: repeat(3, min-content);
     row-gap: 43px;
     column-gap: 29px;
   }

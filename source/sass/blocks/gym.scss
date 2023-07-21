@@ -4,6 +4,8 @@
   column-gap: 85px;
   position: relative;
   padding: 120px 103px 235px 103px;
+  max-width: $max-width;
+  margin: 0 auto;
 
   @include vp-1199 {
     grid-template-columns: none;
@@ -79,7 +81,7 @@
   }
 }
 
-.gym h2{
+.gym h2 {
   font-family: $ff-alumni;
   font-size: 48px;
   font-weight: 600;
@@ -165,11 +167,34 @@
   transform: translate(-50%, -50%);
   border: none;
   cursor: pointer;
+  outline: none;
+
+  &:hover,
+  &:focus-visible {
+    background-image: url("../../img/svg/play-video-hover-focus.svg");
+  }
+
+  &:active {
+    background-image: url("../../img/svg/play-video-active.svg");
+  }
+
+  &:disabled {
+    background-image: url("../../img/svg/play-video-desktop-disabled.svg");
+  }
 
   @include vp-1199 {
     background-image: url("../../img/svg/play-video-tablet.svg");
     width: 73px;
     height: 73px;
+
+    &:hover,
+    &:focus-visible {
+      background-image: url("../../img/svg/play-video-tablet-hover-focus.svg");
+    }
+
+    &:active {
+      background-image: url("../../img/svg/play-video-tablet-active.svg");
+    }
   }
 }
 

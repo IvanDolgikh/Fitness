@@ -1,0 +1,19 @@
+.additional-info {
+  background: linear-gradient(to right, $color-dark-blue 50%, $color-default-white 50%);
+  border-top: 1px solid #74819c;
+
+  @include vp-1199 {
+    background: none;
+  }
+}
+
+.additional-info__container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: $max-width;
+
+  @include vp-1199 {
+    flex-direction: column;
+  }
+}

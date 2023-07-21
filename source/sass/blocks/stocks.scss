@@ -6,6 +6,8 @@
   display: flex;
   padding: 0 103px 120px 103px;
   justify-content: center;
+  margin: 0 auto;
+  max-width: $max-width;
 
   @include vp-1199 {
     padding: 0 45px 100px 45px;
@@ -60,6 +62,14 @@
   }
 }
 
+.stocks__main-container picture {
+  margin-left: auto;
+
+  @include vp-767 {
+    margin-left: 0;
+  }
+}
+
 .stocks__main {
   padding: 42px 45px 45px 45px;
   max-width: 280px;
@@ -68,12 +78,15 @@
   @include vp-767 {
     padding: 42px 50px 45px 50px;
     text-align: center;
+    margin: 0 auto;
     max-width: fit-content;
   }
 }
 
 .stocks__main-photo {
   display: block;
+  width: 100%;
+  object-fit: cover;
 }
 
 .stocks__main p {
@@ -123,6 +136,26 @@
   position: absolute;
   bottom: 45px;
 
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:focus-visible {
+    outline: 1px solid $color-default-white;
+    border: none;
+  }
+
+  &:active {
+    color: $color-default-white;
+    opacity: 1;
+    border: none;
+    border-bottom: 1px solid $color-default-white;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+  }
+
   @include vp-767 {
     position: static;
     width: fit-content;
@@ -145,7 +178,7 @@
 
 .stocks__additional {
   border: 7px solid transparent;
-  border-image: linear-gradient(143deg, #D10A42 0%, #0041CA 100%);
+  border-image: linear-gradient(143deg, #d10a42 0%, #0041ca 100%);
   border-image-slice: 1;
   padding: 24px 21px 29px 28px;
   width: 100%;
@@ -199,7 +232,7 @@
   }
 }
 
-.stocks__additional a{
+.stocks__additional a {
   color: $color-dark-blue;
   font-size: 12px;
   font-weight: 700;
@@ -207,6 +240,26 @@
   text-transform: uppercase;
   padding-bottom: 2px;
   border-bottom: 1px solid $color-dark-blue;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:focus-visible {
+    outline: 1px solid $color-dark-blue;
+    border: none;
+  }
+
+  &:active {
+    color: $color-dark-blue;
+    opacity: 1;
+    border: none;
+    border-bottom: 1px solid $color-dark-blue;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+  }
 
   @include vp-1199 {
     position: absolute;

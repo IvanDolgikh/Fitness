@@ -1,13 +1,18 @@
-.abonnement__container {
+.abonnement {
   background-color: $color-light-gray;
-  padding: 123px 103px 77px 103px;
+}
+
+.abonnement__container {
+  padding: 123px 103px 81px 103px;
   position: relative;
   background-image: url("../../img/gym/pancakes-desktop.png");
   background-repeat: no-repeat;
   background-position: 100% 142%;
+  max-width: $max-width;
+  margin: 0 auto;
 
   @include vp-1199 {
-    padding: 102px 163px 61px 163px;
+    padding: 102px 163px 60px 163px;
     background-image: url("../../img/gym/pancakes-tablet.png");
     background-position: 100% 109%;
   }

@@ -56,9 +56,25 @@
   font-weight: 500;
   line-height: 18px;
   background-color: transparent;
-  border: 1px solid rgba(16, 38, 84, 0.20);
+  border: 1px solid rgba(16, 38, 84, 0.2);
   min-width: 260px;
   min-height: 54px;
+  cursor: pointer;
+
+  &:hover,
+  &:focus-visible {
+    outline: none;
+    border: 1px solid $color-dark-blue;
+  }
+
+  &.is-active {
+    background: linear-gradient(85deg, #ed0233 24%, #003eb7 100%);
+    color: $color-default-white;
+  }
+
+  &:disabled {
+    opacity: 0.2;
+  }
 
   @include vp-1199 {
     min-width: 162px;

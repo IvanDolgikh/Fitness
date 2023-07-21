@@ -1,0 +1,290 @@
+.abonnement-tabs {
+  max-width: 100%;
+}
+
+.abonnement-tabs__controls {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 38px auto;
+  position: relative;
+  width: fit-content;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 2px;
+    background-color: rgba(120, 120, 120, 0.2);
+  }
+
+  @media screen and (max-width: 767px) {
+    flex-wrap: wrap;
+  }
+
+  @include vp-1199 {
+    margin-bottom: 44px;
+  }
+
+  @include vp-767 {
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
+
+// .abonnement-tabs__control {
+//   text-transform: uppercase;
+//   cursor: pointer;
+//   margin: 0 20px;
+//   opacity: 0.5;
+//   min-width: auto;
+//   justify-content: center;
+//   width: 25%;
+
+//   @media screen and (max-width: 1023px) {
+//     margin: 0 10px;
+//     padding: 15px;
+//   }
+
+//   @media screen and (max-width: 767px) {
+//     margin: 10px 2% 0;
+//     padding: 10px;
+//     width: 45%;
+//   }
+
+//   &.is-active {
+//     opacity: 1;
+//     pointer-events: none;
+//   }
+// }
+
+.abonnement-tabs__control {
+  color: rgba(16, 38, 84, 0.5);
+  font-family: $ff-roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 13px;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+
+  &:hover::before,
+  &:focus-visible::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    background-color: #ed0233;
+    outline: none;
+  }
+
+  &.is-active::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    background-color: #ed0233;
+  }
+
+  &:disabled {
+    opacity: 0.3;
+  }
+
+  @include vp-1199 {
+    font-size: 18px;
+  }
+
+  @include vp-767 {
+    font-size: 16px;
+    padding-bottom: 14px;
+  }
+}
+
+.abonnement-tabs__control:not(:last-child) {
+  margin-right: 46px;
+
+  @include vp-1199 {
+    margin-right: 55px;
+  }
+
+  @include vp-767 {
+    margin-right: 0;
+  }
+}
+
+.abonnement-tabs__content {
+  margin-bottom: 40px;
+}
+
+.abonnement-tabs__element ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  z-index: -3;
+
+  @include vp-1199 {
+    flex-direction: column;
+  }
+}
+
+.abonnement-tabs__element li {
+  position: relative;
+  padding: 56px 70px 60px 70px;
+  background-color: $color-default-white;
+  z-index: 1;
+  margin-right: 40px;
+  border: 7px solid transparent;
+
+  &:hover,
+  &:active {
+    border: 7px solid transparent;
+    border-image: linear-gradient(143deg, #d10a42 0%, #0041ca 100%);
+    border-image-slice: 1;
+  }
+
+  @include vp-1199 {
+    margin-right: 0;
+    margin-bottom: 40px;
+    padding: 56px 63px 62px;
+  }
+
+  @include vp-767 {
+    padding: 44px 36px 47px;
+    margin-bottom: 37px;
+  }
+}
+
+.abonnement-tabs__element li:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.tabs--unset .abonnement-tabs__content {
+  height: 100px;
+}
+
+.tabs--unset .abonnement-tabs__element {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.abonnement-tabs__title h3 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 110.16%;
+  margin: 0;
+  margin-bottom: 12px;
+
+  @include vp-767 {
+    font-size: 22px;
+    margin-bottom: 9px;
+  }
+}
+
+.abonnement-tabs__title span {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 74px;
+
+  @include vp-767 {
+    margin-bottom: 62px;
+  }
+}
+
+.abonnement-tabs__price p {
+  text-align: center;
+  color: $color-blue;
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 46px;
+  z-index: 3;
+  outline: none;
+
+  &::after {
+    content: "₽";
+    color: $color-dark-blue;
+    margin-left: 12px;
+
+    @include vp-767 {
+      margin-left: 8px;
+    }
+  }
+
+  @include vp-1199 {
+    margin-bottom: 45px;
+  }
+
+  @include vp-767 {
+    padding-left: 7px;
+    font-size: 48px;
+    margin-bottom: 39px;
+  }
+}
+
+.abonnement-tabs__price span {
+  text-align: center;
+  color: #e8e8e8;
+  font-size: 100px;
+  font-weight: 700;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+
+  @include vp-767 {
+    font-size: 80px;
+    top: 46%;
+  }
+}
+
+.abonnement-tabs__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 206px;
+  height: 64px;
+  border: 2px solid $color-dark-blue;
+  color: $color-dark-blue;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    background: linear-gradient(85deg, #ed0233 24%, #003eb7 100%);
+    border: none;
+    color: $color-default-white;
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  &:disabled {
+    opacity: 0.3;
+  }
+
+  @include vp-1199 {
+    margin: 0 auto;
+  }
+}

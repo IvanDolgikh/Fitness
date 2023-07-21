@@ -1,17 +1,18 @@
 .super-game__container {
   background-color: $color-default-white;
-  padding: 125px 103px 111px 103px;
+  padding: 119px 103px 111px 103px;
   display: flex;
   justify-content: center;
+  max-width: $max-width;
   margin: 0 auto;
 
   @include vp-1199 {
-    padding: 100px 45px 100px 45px;
+    padding: 98px 45px 100px 45px;
   }
 
   @include vp-767 {
     flex-direction: column;
-    padding: 73px 15px 56px 15px;
+    padding: 70px 15px 56px 15px;
   }
 }
 
@@ -28,8 +29,8 @@
   display: flex;
   margin-bottom: 22px;
 
-    @include vp-1199 {
-      margin-bottom: 7px;
+  @include vp-1199 {
+    margin-bottom: 7px;
   }
 }
 
@@ -43,7 +44,6 @@
   letter-spacing: 2.46px;
   margin: 0;
   width: min-content;
-  margin: 0;
   padding: 0 61px 0 12px;
 
   @include vp-1199 {
@@ -72,7 +72,6 @@
   background-color: transparent;
   border: 4px solid $color-default-white;
   margin: 0;
-  padding: 0;
   width: 100%;
   color: $color-default-white;
   font-family: $ff-roboto;
@@ -81,6 +80,22 @@
   letter-spacing: 0.6px;
   text-transform: uppercase;
   padding: 24px 0;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: $color-blue;
+    background-color: $color-default-white;
+  }
+
+  &:active {
+    background-color: $color-default-white;
+    color: $color-dark-blue;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+  }
 
   @include vp-1199 {
     border: 2px solid $color-default-white;
@@ -92,4 +107,7 @@
 
 .super-game__image {
   display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
