@@ -19,4 +19,3 @@ if (video !== null) {
   button.addEventListener('click', onPlayVideo);
   video.addEventListener('click', onPauseVideo);
 }
-
