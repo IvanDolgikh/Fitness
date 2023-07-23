@@ -76,7 +76,14 @@
   margin: 0;
 }
 
-// .advantage__container:nth-child(odd)  .advantage__parameter p,
-// .advantage__container:nth-child(odd)  .advantage__parameter span {
-//   padding-left: 20px;
-// }
+.advantage__decorative-line {
+  width: 100%;
+  height: 2px;
+  background-color: rgba(209, 10, 66, 0.20);;
+  grid-row: 2;
+  margin-bottom: 3px;
+
+  @include vp-1199 {
+    display: none;
+  }
+}

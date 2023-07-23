@@ -68,7 +68,9 @@
   }
 }
 
-.super-game__inner-container button {
+.super-game__inner-container a {
+  display: block;
+  text-align: center;
   background-color: transparent;
   border: 4px solid $color-default-white;
   margin: 0;

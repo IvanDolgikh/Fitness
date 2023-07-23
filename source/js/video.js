@@ -1,10 +1,6 @@
 const video = document.querySelector('.gym__video');
 const button = document.querySelector('.gym__button');
 
-button.addEventListener('click', () => {
-
-});
-
 function onPlayVideo() {
   if (video.paused) {
     video.play();
@@ -19,6 +15,8 @@ function onPauseVideo() {
   button.style.display = 'block';
 }
 
-button.addEventListener('click', onPlayVideo);
+if (video !== null) {
+  button.addEventListener('click', onPlayVideo);
+  video.addEventListener('click', onPauseVideo);
+}
 
-video.addEventListener('click', onPauseVideo);

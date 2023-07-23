@@ -1,18 +1,23 @@
-.main-footer__container {
+.main-footer {
   background-color: $color-dark-gray;
-  padding: 39px 103px 35px 103px;
+}
+
+.main-footer__container {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 43px 103px 38px 103px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   @include vp-1199 {
-    padding: 43px 45px 41px 45px;
+    padding: 47px 45px 41px 45px;
   }
 
   @include vp-767 {
     display: block;
     gap: 30px;
-    padding: 48px 15px 51px;
+    padding: 50px 15px 51px;
     column-count: 2;
   }
 }
@@ -94,7 +99,7 @@
   }
 
   @include vp-767 {
-    margin-bottom: 20px;
+    margin-bottom: 27px;
   }
 }
 

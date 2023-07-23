@@ -1,16 +1,7 @@
 @font-face {
   font-family: "rouble";
-  src: url("../../fonts/rouble/rouble.woff2") format("woff2"),
-    url("../../fonts/rouble/rouble.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "rouble";
-  src: url("../../fonts/rouble/rouble.woff2") format("woff2"),
-    url("../../fonts/rouble/rouble.woff") format("woff");
+  src: url("../fonts/rouble/rouble.woff2") format("woff2"),
+    url("../fonts/rouble/rouble.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -18,8 +9,8 @@
 
 @font-face {
   font-family: "Alumni Sans";
-  src: url("../../fonts/alumni-sans-extrabold/AlumniSans-ExtraBold.woff2") format("woff2"),
-    url("../../fonts/alumni-sans-extrabold/AlumniSans-ExtraBold.woff2") format("woff");
+  src: url("../fonts/alumni-sans-extrabold/AlumniSans-ExtraBold.woff2") format("woff2"),
+    url("../fonts/alumni-sans-extrabold/AlumniSans-ExtraBold.woff2") format("woff");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -27,8 +18,8 @@
 
 @font-face {
   font-family: "Alumni Sans";
-  src: url("../../fonts/alumni-sans-semibold/AlumniSans-SemiBold.woff2") format("woff2"),
-    url("../../fonts/alumni-sans-semibold/AlumniSans-SemiBold.woff2") format("woff");
+  src: url("../fonts/alumni-sans-semibold/AlumniSans-SemiBold.woff2") format("woff2"),
+    url("../fonts/alumni-sans-semibold/AlumniSans-SemiBold.woff2") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -36,8 +27,8 @@
 
 @font-face {
   font-family: "Roboto Condensed";
-  src: url("../../fonts/roboto-condensed-bold/RobotoCondensed-Bold.woff2") format("woff2"),
-    url("../../fonts/roboto-condensed-bold/RobotoCondensed-Bold.woff2") format("woff");
+  src: url("../fonts/roboto-condensed-bold/RobotoCondensed-Bold.woff2") format("woff2"),
+    url("../fonts/roboto-condensed-bold/RobotoCondensed-Bold.woff2") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -45,8 +36,8 @@
 
 @font-face {
   font-family: "Roboto Condensed";
-  src: url("../../fonts/roboto-condensed-light/RobotoCondensed-Light.woff2") format("woff2"),
-    url("../../fonts/roboto-condensed-light/RobotoCondensed-Light.woff2") format("woff");
+  src: url("../fonts/roboto-condensed-light/RobotoCondensed-Light.woff2") format("woff2"),
+    url("../fonts/roboto-condensed-light/RobotoCondensed-Light.woff2") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -54,8 +45,8 @@
 
 @font-face {
   font-family: "Roboto Condensed";
-  src: url("../../fonts/roboto-condensed-regular/RobotoCondensed-Regular.woff2") format("woff2"),
-    url("../../fonts/roboto-condensed-regular/RobotoCondensed-Regular.woff2") format("woff");
+  src: url("../fonts/roboto-condensed-regular/RobotoCondensed-Regular.woff2") format("woff2"),
+    url("../fonts/roboto-condensed-regular/RobotoCondensed-Regular.woff2") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;

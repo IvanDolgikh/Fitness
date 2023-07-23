@@ -171,30 +171,29 @@
 
   &:hover,
   &:focus-visible {
-    background-image: url("../../img/svg/play-video-hover-focus.svg");
+    background-image: url("../img/svg/play-video-desktop-hover-focus.svg");
   }
 
   &:active {
-    background-image: url("../../img/svg/play-video-active.svg");
+    background-image: url("../img/svg/play-video-desktop-active.svg");
   }
 
   &:disabled {
-    background-image: url("../../img/svg/play-video-desktop-disabled.svg");
+    background-image: url("../img/svg/play-video-desktop-disabled.svg");
   }
 
   @include vp-1199 {
-    background-image: url("../../img/svg/play-video-tablet.svg");
+    background-image: url("../img/svg/play-video-tablet.svg");
     width: 73px;
     height: 73px;
 
     &:hover,
     &:focus-visible {
-      background-image: url("../../img/svg/play-video-tablet-hover-focus.svg");
+      background-image: url("../img/svg/play-video-tablet-hover-focus.svg");
     }
 
     &:active {
-      background-image: url("../../img/svg/play-video-tablet-active.svg");
+      background-image: url("../img/svg/play-video-tablet-active.svg");
     }
   }
 }
-
