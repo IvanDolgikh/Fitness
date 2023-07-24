@@ -1965,18 +1965,18 @@ footer {
   transform: translate(-50%, -50%);
 }
 
-.abonnement {
+.subscription {
   background-color: #f8f9fc;
 }
 
-.abonnement__container {
+.subscription__container {
   padding: 123px 0 81px 0;
   position: relative;
   max-width: 1366px;
   margin: 0 auto;
 }
 
-.abonnement__title {
+.subscription__title {
   font-family: "Alumni Sans", "Arial", sans-serif;
   font-size: 54px;
   font-weight: 600;
@@ -1987,7 +1987,7 @@ footer {
   margin-bottom: 18px;
 }
 
-.abonnement__image {
+.subscription__image {
   display: block;
   position: absolute;
   bottom: -18%;
@@ -2041,11 +2041,11 @@ footer {
   opacity: 1;
 }
 
-.abonnement-tabs {
+.subscription-tabs {
   max-width: 100%;
 }
 
-.abonnement-tabs__controls {
+.subscription-tabs__controls {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2059,7 +2059,7 @@ footer {
   width: fit-content;
 }
 
-.abonnement-tabs__controls::before {
+.subscription-tabs__controls::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -2069,7 +2069,7 @@ footer {
   background-color: rgba(120, 120, 120, 0.2);
 }
 
-.abonnement-tabs__control {
+.subscription-tabs__control {
   color: rgba(16, 38, 84, 0.5);
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-size: 20px;
@@ -2086,8 +2086,8 @@ footer {
   outline: none;
 }
 
-.abonnement-tabs__control:hover::before,
-.abonnement-tabs__control:focus-visible::before {
+.subscription-tabs__control:hover::before,
+.subscription-tabs__control:focus-visible::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -2097,7 +2097,7 @@ footer {
   outline: none;
 }
 
-.abonnement-tabs__control.is-active::before {
+.subscription-tabs__control.is-active::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -2106,19 +2106,19 @@ footer {
   background-color: #ed0233;
 }
 
-.abonnement-tabs__control:disabled {
+.subscription-tabs__control:disabled {
   opacity: 0.3;
 }
 
-.abonnement-tabs__control:not(:last-child) {
+.subscription-tabs__control:not(:last-child) {
   margin-right: 46px;
 }
 
-.abonnement-tabs__content {
+.subscription-tabs__content {
   margin-bottom: 40px;
 }
 
-.abonnement-tabs__element ul {
+.subscription-tabs__element ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2134,7 +2134,7 @@ footer {
   gap: 40px;
 }
 
-.abonnement-tabs__element li {
+.subscription-tabs__element li {
   position: relative;
   padding: 56px 70px 60px 70px;
   background-color: #ffffff;
@@ -2142,30 +2142,30 @@ footer {
   border: 7px solid transparent;
 }
 
-.abonnement-tabs__element li:hover,
-.abonnement-tabs__element li:active {
+.subscription-tabs__element li:hover,
+.subscription-tabs__element li:active {
   border: 7px solid transparent;
   -o-border-image: linear-gradient(143deg, #d10a42 0%, #0041ca 100%);
   border-image: linear-gradient(143deg, #d10a42 0%, #0041ca 100%);
   border-image-slice: 1;
 }
 
-.abonnement-tabs__element li:last-child {
+.subscription-tabs__element li:last-child {
   margin-right: 0;
   margin-bottom: 0;
 }
 
-.tabs--unset .abonnement-tabs__content {
+.tabs--unset .subscription-tabs__content {
   height: 100px;
 }
 
-.tabs--unset .abonnement-tabs__element {
+.tabs--unset .subscription-tabs__element {
   height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
-.abonnement-tabs__title h3 {
+.subscription-tabs__title h3 {
   text-align: center;
   font-size: 26px;
   font-weight: 700;
@@ -2174,7 +2174,7 @@ footer {
   margin-bottom: 12px;
 }
 
-.abonnement-tabs__title span {
+.subscription-tabs__title span {
   display: block;
   text-align: center;
   font-size: 16px;
@@ -2183,7 +2183,7 @@ footer {
   margin-bottom: 74px;
 }
 
-.abonnement-tabs__price p {
+.subscription-tabs__price p {
   text-align: center;
   color: #103aae;
   font-size: 60px;
@@ -2194,13 +2194,13 @@ footer {
   outline: none;
 }
 
-.abonnement-tabs__price p::after {
+.subscription-tabs__price p::after {
   content: "₽";
   color: #102654;
   margin-left: 12px;
 }
 
-.abonnement-tabs__price span {
+.subscription-tabs__price span {
   text-align: center;
   color: #e8e8e8;
   font-size: 100px;
@@ -2214,7 +2214,7 @@ footer {
   z-index: -2;
 }
 
-.abonnement-tabs__link {
+.subscription-tabs__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2234,18 +2234,18 @@ footer {
   text-transform: uppercase;
 }
 
-.abonnement-tabs__link:hover,
-.abonnement-tabs__link:focus {
+.subscription-tabs__link:hover,
+.subscription-tabs__link:focus {
   background: linear-gradient(85deg, #ed0233 24%, #003eb7 100%);
   border: none;
   color: #ffffff;
 }
 
-.abonnement-tabs__link:active {
+.subscription-tabs__link:active {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.abonnement-tabs__link:disabled {
+.subscription-tabs__link:disabled {
   opacity: 0.3;
 }
 
@@ -3557,11 +3557,11 @@ footer {
     letter-spacing: 0.48px;
   }
 
-  .abonnement__container {
+  .subscription__container {
     padding: 102px 163px 60px 163px;
   }
 
-  .abonnement__title {
+  .subscription__title {
     font-size: 42px;
     font-weight: 600;
     letter-spacing: 1.26px;
@@ -3569,24 +3569,24 @@ footer {
     margin-bottom: 21px;
   }
 
-  .abonnement__image {
+  .subscription__image {
     bottom: -7%;
     right: 0;
   }
 
-  .abonnement-tabs__controls {
+  .subscription-tabs__controls {
     margin-bottom: 44px;
   }
 
-  .abonnement-tabs__control {
+  .subscription-tabs__control {
     font-size: 18px;
   }
 
-  .abonnement-tabs__control:not(:last-child) {
+  .subscription-tabs__control:not(:last-child) {
     margin-right: 55px;
   }
 
-  .abonnement-tabs__element ul {
+  .subscription-tabs__element ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -3597,15 +3597,15 @@ footer {
     row-gap: 40px;
   }
 
-  .abonnement-tabs__element li {
+  .subscription-tabs__element li {
     padding: 56px 63px 62px;
   }
 
-  .abonnement-tabs__price p {
+  .subscription-tabs__price p {
     margin-bottom: 45px;
   }
 
-  .abonnement-tabs__link {
+  .subscription-tabs__link {
     margin: 0 auto;
   }
 
@@ -3964,7 +3964,7 @@ footer {
     bottom: 20px;
   }
 
-  .abonnement-tabs__controls {
+  .subscription-tabs__controls {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
@@ -4145,22 +4145,22 @@ footer {
     text-align: left;
   }
 
-  .abonnement__container {
+  .subscription__container {
     padding: 65px 15px 30px 15px;
     background-image: none;
   }
 
-  .abonnement__title {
+  .subscription__title {
     font-size: 32px;
     letter-spacing: 0.96px;
     padding-right: 10px;
   }
 
-  .abonnement__image {
+  .subscription__image {
     display: none;
   }
 
-  .abonnement-tabs__controls {
+  .subscription-tabs__controls {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -4168,43 +4168,43 @@ footer {
     margin-bottom: 35px;
   }
 
-  .abonnement-tabs__control {
+  .subscription-tabs__control {
     font-size: 16px;
     padding-bottom: 14px;
   }
 
-  .abonnement-tabs__control:not(:last-child) {
+  .subscription-tabs__control:not(:last-child) {
     margin-right: 0;
   }
 
-  .abonnement-tabs__element ul {
+  .subscription-tabs__element ul {
     row-gap: 37px;
   }
 
-  .abonnement-tabs__element li {
+  .subscription-tabs__element li {
     padding: 44px 36px 47px;
   }
 
-  .abonnement-tabs__title h3 {
+  .subscription-tabs__title h3 {
     font-size: 22px;
     margin-bottom: 9px;
   }
 
-  .abonnement-tabs__title span {
+  .subscription-tabs__title span {
     margin-bottom: 62px;
   }
 
-  .abonnement-tabs__price p::after {
+  .subscription-tabs__price p::after {
     margin-left: 8px;
   }
 
-  .abonnement-tabs__price p {
+  .subscription-tabs__price p {
     padding-left: 7px;
     font-size: 48px;
     margin-bottom: 39px;
   }
 
-  .abonnement-tabs__price span {
+  .subscription-tabs__price span {
     font-size: 80px;
     top: 46%;
   }
