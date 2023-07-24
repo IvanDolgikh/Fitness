@@ -93,196 +93,197 @@
       </div>
     </section>
 
-    <section class="subscription">
-      <div id="subscription" class="subscription__container">
-        <h2 class="subscription__title">Абонементы</h2>
+    <div class="main-container__image-wrapper">
+      <picture>
+        <source type="image/webp" media="(max-width: 1199px)" srcset="img/gym/pancakes-tablet.webp 1x, img/gym/pancakes-tablet@2x.webp 2x" width="289" height="345">
+        <source type="image/webp" srcset="img/gym/pancakes-desktop.webp 1x, img/gym/pancakes-desktop@2x.webp 2x" width="321" height="384">
+        <source media="(max-width: 1199px)" srcset="img/gym/pancakes-tablet.png 1x, img/gym/pancakes-tablet@2x.png 2x" width="289" height="345">
+        <img class="main-container__image" src="img/gym/pancakes-desktop.png" srcset="img/gym/pancakes-desktop@2x.png 2x" width="321" height="384" alt="Наш зал.">
+      </picture>
 
-        <picture>
-          <source type="image/webp" media="(max-width: 1199px)" srcset="img/gym/pancakes-tablet.webp 1x, img/gym/pancakes-tablet@2x.webp 2x" width="289" height="345">
-          <source type="image/webp" srcset="img/gym/pancakes-desktop.webp 1x, img/gym/pancakes-desktop@2x.webp 2x" width="321" height="384">
-          <source media="(max-width: 1199px)" srcset="img/gym/pancakes-tablet.png 1x, img/gym/pancakes-tablet@2x.png 2x" width="289" height="345">
-          <img class="subscription__image" src="img/gym/pancakes-desktop.png" srcset="img/gym/pancakes-desktop@2x.png 2x" width="321" height="384" alt="Наш зал.">
-        </picture>
+      <section class="subscription">
+        <div id="subscription" class="subscription__container">
+          <h2 class="subscription__title">Абонементы</h2>
 
-        <div class="subscription-tabs no-transition-global" data-tabs="parent" data-delay="300" data-height="max">
-          <div class="subscription-tabs__controls" data-tabs="controls">
-            <button class="subscription-tabs__control btn" type="button" data-tabs="control"
-              aria-label="Просмотреть абонементы на один месяц.">1 месяц</button>
-            <button class="subscription-tabs__control btn" type="button" data-tabs="control"
-              aria-label="Просмотреть абонементы на шесть месяцев.">6 месяцев</button>
-            <button class="subscription-tabs__control btn" type="button" data-tabs="control"
-              aria-label="Просмотреть абонементы на двенадцать месяцев.">12 месяцев</button>
-          </div>
-          <div class="subscription-tabs__content" data-tabs="content">
-            <div class="subscription-tabs__element" data-tabs="element">
-              <ul>
-
-                <li>
-                  <div class="subscription-tabs__title">
-                    <h3>С тренером</h3>
-                    <span>12 занятий</span>
-                  </div>
-                  <div class="subscription-tabs__price">
-                    <p>5000</p>
-                    <span>5000</span>
-                  </div>
-                  <a href="#" class="subscription-tabs__link">Купить абонемент</a>
-                </li>
-
-                <li>
-                  <div class="subscription-tabs__title">
-                    <h3>Дневной</h3>
-                    <span>с 8:00 до 17:00</span>
-                  </div>
-                  <div class="subscription-tabs__price">
-                    <p>1700</p>
-                    <span>1700</span>
-                  </div>
-                  <a href="#" class="subscription-tabs__link">Купить абонемент</a>
-                </li>
-
-                <li>
-                  <div class="subscription-tabs__title">
-                    <h3>Полный день</h3>
-                    <span>с 8:00 до 22:00</span>
-                  </div>
-                  <div class="subscription-tabs__price">
-                    <p>2700</p>
-                    <span>2700</span>
-                  </div>
-                  <a href="#" class="subscription-tabs__link">Купить абонемент</a>
-                </li>
-
-              </ul>
+          <div class="subscription-tabs no-transition-global" data-tabs="parent" data-delay="300" data-height="max">
+            <div class="subscription-tabs__controls" data-tabs="controls">
+              <button class="subscription-tabs__control btn" type="button" data-tabs="control"
+                aria-label="Просмотреть абонементы на один месяц.">1 месяц</button>
+              <button class="subscription-tabs__control btn" type="button" data-tabs="control"
+                aria-label="Просмотреть абонементы на шесть месяцев.">6 месяцев</button>
+              <button class="subscription-tabs__control btn" type="button" data-tabs="control"
+                aria-label="Просмотреть абонементы на двенадцать месяцев.">12 месяцев</button>
             </div>
+            <div class="subscription-tabs__content" data-tabs="content">
+              <div class="subscription-tabs__element" data-tabs="element">
+                <ul>
 
-            <div class="subscription-tabs__element" data-tabs="element">
-              <ul>
+                  <li>
+                    <div class="subscription-tabs__title">
+                      <h3>С тренером</h3>
+                      <span>12 занятий</span>
+                    </div>
+                    <div class="subscription-tabs__price">
+                      <p>5000</p>
+                      <span>5000</span>
+                    </div>
+                    <a href="#" class="subscription-tabs__link">Купить абонемент</a>
+                  </li>
 
-                <li>
-                  <div class="subscription-tabs__title">
-                    <h3>С тренером</h3>
-                    <span>72 занятия</span>
-                  </div>
-                  <div class="subscription-tabs__price">
-                    <p>13000</p>
-                    <span>13000</span>
-                  </div>
-                  <a href="#" class="subscription-tabs__link">Купить абонемент</a>
-                </li>
+                  <li>
+                    <div class="subscription-tabs__title">
+                      <h3>Дневной</h3>
+                      <span>с 8:00 до 17:00</span>
+                    </div>
+                    <div class="subscription-tabs__price">
+                      <p>1700</p>
+                      <span>1700</span>
+                    </div>
+                    <a href="#" class="subscription-tabs__link">Купить абонемент</a>
+                  </li>
 
-                <li>
-                  <div class="subscription-tabs__title">
-                    <h3>Дневной</h3>
-                    <span>с 8:00 до 17:00</span>
-                  </div>
-                  <div class="subscription-tabs__price">
-                    <p>6000</p>
-                    <span>6000</span>
-                  </div>
-                  <a href="#" class="subscription-tabs__link">Купить абонемент</a>
-                </li>
+                  <li>
+                    <div class="subscription-tabs__title">
+                      <h3>Полный день</h3>
+                      <span>с 8:00 до 22:00</span>
+                    </div>
+                    <div class="subscription-tabs__price">
+                      <p>2700</p>
+                      <span>2700</span>
+                    </div>
+                    <a href="#" class="subscription-tabs__link">Купить абонемент</a>
+                  </li>
 
-                <li>
-                  <div class="subscription-tabs__title">
-                    <h3>Полный день</h3>
-                    <span>с 8:00 до 22:00</span>
-                  </div>
-                  <div class="subscription-tabs__price">
-                    <p>8000</p>
-                    <span>8000</span>
-                  </div>
-                  <a href="#" class="subscription-tabs__link">Купить абонемент</a>
-                </li>
+                </ul>
+              </div>
 
-              </ul>
-            </div>
+              <div class="subscription-tabs__element" data-tabs="element">
+                <ul>
 
-            <div class="subscription-tabs__element" data-tabs="element">
-              <ul>
+                  <li>
+                    <div class="subscription-tabs__title">
+                      <h3>С тренером</h3>
+                      <span>72 занятия</span>
+                    </div>
+                    <div class="subscription-tabs__price">
+                      <p>13000</p>
+                      <span>13000</span>
+                    </div>
+                    <a href="#" class="subscription-tabs__link">Купить абонемент</a>
+                  </li>
 
-                <li>
-                  <div class="subscription-tabs__title">
-                    <h3>С тренером</h3>
-                    <span>144 занятия</span>
-                  </div>
-                  <div class="subscription-tabs__price">
-                    <p>10500</p>
-                    <span>10500</span>
-                  </div>
-                  <a href="#" class="subscription-tabs__link">Купить абонемент</a>
-                </li>
+                  <li>
+                    <div class="subscription-tabs__title">
+                      <h3>Дневной</h3>
+                      <span>с 8:00 до 17:00</span>
+                    </div>
+                    <div class="subscription-tabs__price">
+                      <p>6000</p>
+                      <span>6000</span>
+                    </div>
+                    <a href="#" class="subscription-tabs__link">Купить абонемент</a>
+                  </li>
 
-                <li>
-                  <div class="subscription-tabs__title">
-                    <h3>Дневной</h3>
-                    <span>с 8:00 до 17:00</span>
-                  </div>
-                  <div class="subscription-tabs__price">
-                    <p>9000</p>
-                    <span>9000</span>
-                  </div>
-                  <a href="#" class="subscription-tabs__link">Купить абонемент</a>
-                </li>
+                  <li>
+                    <div class="subscription-tabs__title">
+                      <h3>Полный день</h3>
+                      <span>с 8:00 до 22:00</span>
+                    </div>
+                    <div class="subscription-tabs__price">
+                      <p>8000</p>
+                      <span>8000</span>
+                    </div>
+                    <a href="#" class="subscription-tabs__link">Купить абонемент</a>
+                  </li>
 
-                <li>
-                  <div class="subscription-tabs__title">
-                    <h3>Полный день</h3>
-                    <span>с 8:00 до 22:00</span>
-                  </div>
-                  <div class="subscription-tabs__price">
-                    <p>15000</p>
-                    <span>15000</span>
-                  </div>
-                  <a href="#" class="subscription-tabs__link">Купить абонемент</a>
-                </li>
+                </ul>
+              </div>
 
-              </ul>
+              <div class="subscription-tabs__element" data-tabs="element">
+                <ul>
+
+                  <li>
+                    <div class="subscription-tabs__title">
+                      <h3>С тренером</h3>
+                      <span>144 занятия</span>
+                    </div>
+                    <div class="subscription-tabs__price">
+                      <p>10500</p>
+                      <span>10500</span>
+                    </div>
+                    <a href="#" class="subscription-tabs__link">Купить абонемент</a>
+                  </li>
+
+                  <li>
+                    <div class="subscription-tabs__title">
+                      <h3>Дневной</h3>
+                      <span>с 8:00 до 17:00</span>
+                    </div>
+                    <div class="subscription-tabs__price">
+                      <p>9000</p>
+                      <span>9000</span>
+                    </div>
+                    <a href="#" class="subscription-tabs__link">Купить абонемент</a>
+                  </li>
+
+                  <li>
+                    <div class="subscription-tabs__title">
+                      <h3>Полный день</h3>
+                      <span>с 8:00 до 22:00</span>
+                    </div>
+                    <div class="subscription-tabs__price">
+                      <p>15000</p>
+                      <span>15000</span>
+                    </div>
+                    <a href="#" class="subscription-tabs__link">Купить абонемент</a>
+                  </li>
+
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="super-game">
-      <h2 class="visually-hidden">Дата соревнований</h2>
-      <div class="super-game__container">
-        <div class="super-game__inner-container">
-          <div class="super-game__info">
-            <h2>SUPER GAMES</h2>
-            <div class="super-game__date date">
+      <section class="super-game">
+        <h2 class="visually-hidden">Дата соревнований</h2>
+        <div class="super-game__container">
+          <div class="super-game__inner-container">
+            <div class="super-game__info">
+              <h2>SUPER GAMES</h2>
+              <div class="super-game__date date">
 
-              <div class="date__day">
-                <h3>Дата</h3>
-                <div class="date__day-container">
-                  <span>7</span>
-                  <p>Марта 2019</p>
+                <div class="date__day">
+                  <h3>Дата</h3>
+                  <div class="date__day-container">
+                    <span>7</span>
+                    <p>Марта 2019</p>
+                  </div>
                 </div>
-              </div>
 
-              <div class="date__time">
-                <h3>Время</h3>
-                <p>12:00</p>
-              </div>
+                <div class="date__time">
+                  <h3>Время</h3>
+                  <p>12:00</p>
+                </div>
 
+              </div>
             </div>
+            <p>Ежегодные соревнования по CrossFit</p>
+            <a href="#">Заполнить заявку</a>
           </div>
-          <p>Ежегодные соревнования по CrossFit</p>
-          <a href="#">Заполнить заявку</a>
+
+          <picture>
+            <source type="image/webp" media="(max-width: 767px)" srcset="img/super-game/super-game-phone.webp 1x, img/super-game/super-game-phone@2x.webp 2x" width="290" height="292">
+            <source type="image/webp" media="(max-width: 1199px)" srcset="img/super-game/super-game-tablet.webp 1x, img/super-game/super-game-tablet@2x.webp 2x" width="386" height="292">
+            <source type="image/webp" srcset="img/super-game/super-game-desktop.webp 1x, img/super-game/super-game-desktop@2x.webp 2x" width="660" height="500">
+            <source media="(max-width: 767px)" srcset="img/super-game/super-game-phone.jpg 1x, img/super-game/super-game-phone@2x.jpg 2x" width="290" height="292">
+            <source media="(max-width: 1199px)" srcset="img/super-game/super-game-tablet.jpg 1x, img/super-game/super-game-tablet@2x.jpg 2x" width="386" height="292">
+            <img class="super-game__image" src="img/super-game/super-game-desktop.jpg" srcset="img/super-game/super-game-desktop@2x.jpg 2x" width="660" height="500" alt="Супер игра">
+          </picture>
+
         </div>
-
-        <picture>
-          <source type="image/webp" media="(max-width: 767px)" srcset="img/super-game/super-game-phone.webp 1x, img/super-game/super-game-phone@2x.webp 2x" width="290" height="292">
-          <source type="image/webp" media="(max-width: 1199px)" srcset="img/super-game/super-game-tablet.webp 1x, img/super-game/super-game-tablet@2x.webp 2x" width="386" height="292">
-          <source type="image/webp" srcset="img/super-game/super-game-desktop.webp 1x, img/super-game/super-game-desktop@2x.webp 2x" width="660" height="500">
-          <source media="(max-width: 767px)" srcset="img/super-game/super-game-phone.jpg 1x, img/super-game/super-game-phone@2x.jpg 2x" width="290" height="292">
-          <source media="(max-width: 1199px)" srcset="img/super-game/super-game-tablet.jpg 1x, img/super-game/super-game-tablet@2x.jpg 2x" width="386" height="292">
-          <img class="super-game__image" src="img/super-game/super-game-desktop.jpg" srcset="img/super-game/super-game-desktop@2x.jpg 2x" width="660" height="500" alt="Супер игра">
-        </picture>
-
-      </div>
-    </section>
-
+      </section>
+    </div>
 
     <section class="coaches">
       <h2>Тренеры</h2>
