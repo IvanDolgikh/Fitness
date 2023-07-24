@@ -46,12 +46,14 @@
 .subscription__image {
   display: block;
   position: absolute;
-  bottom: -18%;
-  right: 0;
+  bottom: -17%;
+  right: -13%;
+  width: auto;
+  height: auto;
 
   @include vp-1199 {
     bottom: -7%;
-    right: 0;
+    right: -10%;
   }
 
   @include vp-767 {

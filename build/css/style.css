@@ -1990,8 +1990,10 @@ footer {
 .subscription__image {
   display: block;
   position: absolute;
-  bottom: -18%;
-  right: 0;
+  bottom: -17%;
+  right: -13%;
+  width: auto;
+  height: auto;
 }
 
 [data-tabs=parent] {
@@ -3571,7 +3573,7 @@ footer {
 
   .subscription__image {
     bottom: -7%;
-    right: 0;
+    right: -10%;
   }
 
   .subscription-tabs__controls {
