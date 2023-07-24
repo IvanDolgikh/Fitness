@@ -1,8 +1,8 @@
-.abonnement-tabs {
+.subscription-tabs {
   max-width: 100%;
 }
 
-.abonnement-tabs__controls {
+.subscription-tabs__controls {
   display: flex;
   justify-content: center;
   margin: 0 auto 38px auto;
@@ -34,7 +34,7 @@
   }
 }
 
-.abonnement-tabs__control {
+.subscription-tabs__control {
   color: rgba(16, 38, 84, 0.5);
   font-family: $ff-roboto;
   font-size: 20px;
@@ -84,7 +84,7 @@
   }
 }
 
-.abonnement-tabs__control:not(:last-child) {
+.subscription-tabs__control:not(:last-child) {
   margin-right: 46px;
 
   @include vp-1199 {
@@ -96,11 +96,11 @@
   }
 }
 
-.abonnement-tabs__content {
+.subscription-tabs__content {
   margin-bottom: 40px;
 }
 
-.abonnement-tabs__element ul {
+.subscription-tabs__element ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -121,7 +121,7 @@
   }
 }
 
-.abonnement-tabs__element li {
+.subscription-tabs__element li {
   position: relative;
   padding: 56px 70px 60px 70px;
   background-color: $color-default-white;
@@ -144,22 +144,22 @@
   }
 }
 
-.abonnement-tabs__element li:last-child {
+.subscription-tabs__element li:last-child {
   margin-right: 0;
   margin-bottom: 0;
 }
 
-.tabs--unset .abonnement-tabs__content {
+.tabs--unset .subscription-tabs__content {
   height: 100px;
 }
 
-.tabs--unset .abonnement-tabs__element {
+.tabs--unset .subscription-tabs__element {
   height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
-.abonnement-tabs__title h3 {
+.subscription-tabs__title h3 {
   text-align: center;
   font-size: 26px;
   font-weight: 700;
@@ -173,7 +173,7 @@
   }
 }
 
-.abonnement-tabs__title span {
+.subscription-tabs__title span {
   display: block;
   text-align: center;
   font-size: 16px;
@@ -186,7 +186,7 @@
   }
 }
 
-.abonnement-tabs__price p {
+.subscription-tabs__price p {
   text-align: center;
   color: $color-blue;
   font-size: 60px;
@@ -217,7 +217,7 @@
   }
 }
 
-.abonnement-tabs__price span {
+.subscription-tabs__price span {
   text-align: center;
   color: #e8e8e8;
   font-size: 100px;
@@ -234,7 +234,7 @@
   }
 }
 
-.abonnement-tabs__link {
+.subscription-tabs__link {
   display: flex;
   justify-content: center;
   align-items: center;

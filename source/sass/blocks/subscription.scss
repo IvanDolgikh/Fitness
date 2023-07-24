@@ -1,8 +1,8 @@
-.abonnement {
+.subscription {
   background-color: $color-light-gray;
 }
 
-.abonnement__container {
+.subscription__container {
   padding: 123px 0 81px 0;
   position: relative;
   max-width: $max-width;
@@ -18,7 +18,7 @@
   }
 }
 
-.abonnement__title {
+.subscription__title {
   font-family: $ff-alumni;
   font-size: 54px;
   font-weight: 600;
@@ -43,7 +43,7 @@
   }
 }
 
-.abonnement__image {
+.subscription__image {
   display: block;
   position: absolute;
   bottom: -18%;
