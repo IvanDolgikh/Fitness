@@ -1717,6 +1717,20 @@ footer {
   display: block;
 }
 
+.main-container__image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.main-container__image {
+  display: block;
+  position: absolute;
+  bottom: 37%;
+  right: -13%;
+  width: auto;
+  height: auto;
+}
+
 .gym__container {
   display: -ms-grid;
   display: grid;
@@ -1985,15 +1999,6 @@ footer {
   padding: 0;
   text-align: center;
   margin-bottom: 18px;
-}
-
-.subscription__image {
-  display: block;
-  position: absolute;
-  bottom: -17%;
-  right: -13%;
-  width: auto;
-  height: auto;
 }
 
 [data-tabs=parent] {
@@ -3467,6 +3472,11 @@ footer {
     padding-bottom: 57px;
   }
 
+  .main-container__image {
+    bottom: 16%;
+    right: -10%;
+  }
+
   .gym__container {
     -ms-grid-columns: none;
     grid-template-columns: none;
@@ -3569,11 +3579,6 @@ footer {
     letter-spacing: 1.26px;
     padding-right: 14px;
     margin-bottom: 21px;
-  }
-
-  .subscription__image {
-    bottom: -7%;
-    right: -10%;
   }
 
   .subscription-tabs__controls {
@@ -4036,6 +4041,10 @@ footer {
     display: none;
   }
 
+  .main-container__image {
+    display: none;
+  }
+
   .gym__container {
     text-align: center;
     padding: 67px 0 70px 0;
@@ -4156,10 +4165,6 @@ footer {
     font-size: 32px;
     letter-spacing: 0.96px;
     padding-right: 10px;
-  }
-
-  .subscription__image {
-    display: none;
   }
 
   .subscription-tabs__controls {
