@@ -1724,8 +1724,8 @@ footer {
 .main-container__image {
   display: block;
   position: absolute;
-  top: 58vh;
-  right: -21vh;
+  top: 55vh;
+  right: -20vh;
   width: auto;
   height: auto;
 }
@@ -3671,6 +3671,7 @@ footer {
     width: -webkit-min-content;
     width: -moz-min-content;
     width: min-content;
+    margin: 0;
   }
 
   .date__time h3 {
