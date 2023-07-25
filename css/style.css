@@ -4287,6 +4287,7 @@ footer {
 
   .advantages__parameter p {
     margin: 0;
+    padding: 0;
   }
 
   .advantage__container {
@@ -4359,6 +4360,10 @@ footer {
 
   .stocks__main-price {
     margin-bottom: 17px;
+  }
+
+  .stocks__main-price p {
+    margin: 0;
   }
 
   .stocks__main a {
