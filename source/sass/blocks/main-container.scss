@@ -6,14 +6,14 @@
 .main-container__image {
   display: block;
   position: absolute;
-  bottom: 37%;
-  right: -13%;
+  top: 58vh;
+  right: -21vh;
   width: auto;
   height: auto;
 
   @include vp-1199 {
-    bottom: 16%;
-    right: -10%;
+    top: 167vh;
+    right: -9vh;
   }
 
   @include vp-767 {
