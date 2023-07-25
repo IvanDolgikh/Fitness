@@ -123,6 +123,7 @@
   @include vp-1199 {
     width: fit-content;
     margin: 0 auto 5px auto;
+    padding: 0;
   }
 
   @include vp-767 {

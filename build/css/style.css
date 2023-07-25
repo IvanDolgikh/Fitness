@@ -3687,6 +3687,7 @@ footer {
     width: -webkit-min-content;
     width: -moz-min-content;
     width: min-content;
+    margin: 0;
   }
 
   .coaches__container {
@@ -3754,6 +3755,7 @@ footer {
     width: -moz-fit-content;
     width: fit-content;
     margin: 0 auto 5px auto;
+    padding: 0;
   }
 
   .advantages__parameter span {
