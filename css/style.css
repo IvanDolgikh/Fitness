@@ -1635,6 +1635,7 @@ footer {
   padding-right: 52px;
   margin-bottom: 11px;
   padding-top: 4px;
+  word-break: break-all;
 }
 
 .promo__title {
@@ -1714,6 +1715,8 @@ footer {
 
 .promo__image {
   display: block;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .main-container__image-wrapper {
@@ -1724,8 +1727,8 @@ footer {
 .main-container__image {
   display: block;
   position: absolute;
-  top: 55vh;
-  right: -20vh;
+  top: 58vh;
+  right: -21vh;
   width: auto;
   height: auto;
 }
