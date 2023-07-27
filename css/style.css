@@ -4569,15 +4569,15 @@ footer {
   }
 
   .swiper__back-button {
-    margin-left: 15px;
-    width: 10px;
-    height: 19px;
+    margin-left: 0;
+    width: 42px;
+    height: 42px;
   }
 
   .swiper__next-button {
-    margin-right: 15px;
-    width: 12px;
-    height: 22px;
+    margin-right: 0;
+    width: 42px;
+    height: 42px;
   }
 
   .swiper__button-icon {
