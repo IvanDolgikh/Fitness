@@ -19,7 +19,9 @@
 
 .main-header__logo-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 10px 20px;
   padding-top: 30px;
   margin-bottom: 11px;
 
@@ -36,9 +38,10 @@
 
 .main-header__logo {
   margin-top: auto;
+  margin-right: auto;
 
   @include vp-1199 {
-    margin: auto 0;
+    margin: auto auto auto 0;
   }
 }
 
@@ -69,6 +72,22 @@
   color: $color-default-white;
   letter-spacing: 0.78px;
   line-height: normal;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:focus-visible {
+    outline: 1px solid $color-default-white;
+  }
+
+  &:active {
+    opacity: 1;
+  }
+
+  &:disabled {
+    opacity: 0.3;
+  }
 
   @include vp-1199 {
     font-size: 24px;
