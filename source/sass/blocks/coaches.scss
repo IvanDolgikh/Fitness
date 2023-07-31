@@ -5,12 +5,13 @@
   max-width: $max-width;
 
   @include vp-1199 {
-    margin: 0 auto 100px auto;
-    padding: 0 47px;
+    margin: 0 auto 91px auto;
+    padding: 0 101px;
   }
 
   @include vp-767 {
     margin-bottom: 70px;
+    padding: 0 47px;
   }
 }
 
