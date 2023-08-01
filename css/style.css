@@ -1552,6 +1552,31 @@ footer {
   color: #15ab07;
 }
 
+.recording__user-name input:focus-visible::-webkit-input-placeholder,
+.recording__user-name input:active::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.recording__user-name input:focus-visible::-moz-placeholder,
+.recording__user-name input:active::-moz-placeholder {
+  color: transparent;
+}
+
+.recording__user-name input:focus-visible:-ms-input-placeholder,
+.recording__user-name input:active:-ms-input-placeholder {
+  color: transparent;
+}
+
+.recording__user-name input:focus-visible::-ms-input-placeholder,
+.recording__user-name input:active::-ms-input-placeholder {
+  color: transparent;
+}
+
+.recording__user-name input:focus-visible::placeholder,
+.recording__user-name input:active::placeholder {
+  color: transparent;
+}
+
 .main-header {
   background: conic-gradient(from 151deg at 16.03% 39.06%, #003d85 32.24deg, #b80027 304deg, #003d85 360deg);
 }
@@ -1698,7 +1723,8 @@ footer {
   border: 4px solid #ffffff;
   background-color: transparent;
   margin-left: auto;
-  padding: 20px 54px;
+  width: 230px;
+  padding: 19px 0;
   cursor: pointer;
 }
 
@@ -2265,7 +2291,8 @@ footer {
   -ms-flex-align: center;
   align-items: center;
   width: 206px;
-  height: 64px;
+  text-align: center;
+  padding: 23px 5px;
   border: 2px solid #102654;
   color: #102654;
   font-size: 12px;
@@ -2795,7 +2822,7 @@ footer {
 
 .accordion__element {
   margin: 0;
-  padding: 26px 0 23px 0;
+  padding: 26px 0 24px 0;
   border-bottom: 1px solid rgba(28, 51, 116, 0.2);
 }
 
@@ -2896,7 +2923,7 @@ footer {
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-size: 24px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 28.8px;
   margin: 0;
   letter-spacing: 0.12px;
 }
@@ -3014,7 +3041,7 @@ footer {
   font-size: 54px;
   font-weight: 600;
   letter-spacing: 1.62px;
-  padding: 121px 103px 39px 103px;
+  padding: 119px 103px 39px 103px;
   text-align: center;
   margin: 0;
 }
@@ -3043,6 +3070,7 @@ footer {
 }
 
 .feedback .swiper__next-button:disabled {
+  pointer-events: none;
   opacity: 0.3;
 }
 
@@ -3063,6 +3091,7 @@ footer {
 
 .feedback .swiper__back-button:disabled {
   opacity: 0.3;
+  pointer-events: none;
 }
 
 .additional-info {
@@ -3317,6 +3346,7 @@ footer {
 }
 
 .swiper__back-button:disabled {
+  pointer-events: none;
   opacity: 0.3;
 }
 
@@ -3349,6 +3379,7 @@ footer {
 }
 
 .swiper__next-button:disabled {
+  pointer-events: none;
   opacity: 0.3;
 }
 
@@ -3612,7 +3643,8 @@ footer {
   }
 
   .promo__button {
-    padding: 20px 30px;
+    width: 183px;
+    padding: 20px 0;
   }
 
   .promo__description-container {
@@ -3646,6 +3678,10 @@ footer {
   .gym__video {
     width: 266px;
     height: 167px;
+  }
+
+  .gym__image {
+    width: 100%;
   }
 
   .gym__info {
@@ -3714,7 +3750,7 @@ footer {
   }
 
   .subscription__container {
-    padding: 102px 163px 60px 163px;
+    padding: 102px 163px 61px 163px;
   }
 
   .subscription__title {
@@ -3969,11 +4005,15 @@ footer {
   }
 
   .accordion__element:last-child {
-    margin-bottom: 104px;
+    margin-bottom: 100px;
+  }
+
+  .accordion__element {
+    padding-bottom: 23px;
   }
 
   .accordion__button-container span:first-child {
-    line-height: 26px;
+    line-height: 28px;
   }
 
   .questions__container {
@@ -4194,6 +4234,8 @@ footer {
   }
 
   .promo__title {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
     font-size: 72px;
     letter-spacing: 3.6px;
     line-height: 86.4px;
@@ -4210,8 +4252,7 @@ footer {
   }
 
   .promo__description-container {
-    padding-right: 0;
-    padding-bottom: 55px;
+    padding: 79px 0 55px 0;
     margin-right: -10px;
   }
 
@@ -4248,6 +4289,7 @@ footer {
 
   .gym__image {
     margin-bottom: 40px;
+    height: auto;
   }
 
   .gym__info {
@@ -4591,7 +4633,7 @@ footer {
 
   .accordion__button-container span:first-child {
     font-size: 18px;
-    line-height: 120%;
+    line-height: 21.6px;
   }
 
   .accordion__wrapper p {
