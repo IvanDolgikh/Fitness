@@ -85,3 +85,8 @@
     }
   }
 }
+
+.recording__user-name input:focus-visible::placeholder,
+.recording__user-name input:active::placeholder {
+  color: transparent;
+}
